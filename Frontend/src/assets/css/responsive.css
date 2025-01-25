@@ -1,0 +1,96 @@
+@media (max-width: 576px) {
+    /* navbar responsive */
+    .navbar{
+        padding: 0.2rem;
+    }
+    .navbar .language-selector {
+      display: none !important;
+    }
+  
+    .navbar .nav-links {
+      display: none !important; 
+    }
+
+    .navbar .navbar-container .left-container .logo img {
+        width: 150px;
+        margin-left: 1rem;
+      }
+
+      .navbar .navbar-container .right-container .menu-toggle .hamburger {
+        width: 150px;
+      }
+
+      /* hero responsive */
+
+      .hero-main .hero-content{
+        width: 90%;
+        left: 1rem;
+      }
+      .hero-main .hero-content .hero-heading{
+        font-size: 48px;
+      }
+      .hero-main .hero-content .hero-text{
+        font-size: 18px;
+      }
+
+      /* about us section */
+      .about-container .about-content {
+        font-size: 18px; 
+        width: 90%; 
+        line-height: 2rem;
+      }
+
+      /* latest section */
+      .latest-container .swiper{
+        width: 90%;
+      }
+
+        /* testonomials section */
+        .testonomial-container .swiper{
+        width: 90%;
+      }
+      .testonomial-container .testimonial-text{
+        font-size: 18px;
+      }
+      .testonomial-container .testimonial-slide{
+        width: 60%;
+      }
+      .testonomial-container .swiper-button-prev,
+      .testonomial-container .swiper-button-next {
+        color: #969696; 
+        width: 30px; 
+        height: 15px; 
+        font-size: 14px; 
+      }
+
+      /* footer responsive */
+      .footer{
+        padding: 0.5rem;
+      }
+      .footer .footer-container{
+        flex-direction: column;
+      }
+      .footer .footer-container .company-info{
+        flex-direction: column;
+        margin-top: 1rem;
+      }
+      .footer .footer-container .company-info img{
+        margin-bottom: 2rem;
+      }
+
+      .footer .footer-container .social-media{
+        margin-top: 2rem;
+      }
+      .footer .copyright-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .footer .copyright-container .text-copyright{
+        font-size: 14px;
+      }
+      .footer .copyright-container p{
+        font-size: 11px;
+      }
+  }
+  
